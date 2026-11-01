@@ -1,0 +1,19 @@
+{
+  "name": "material-expressive-web",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  },
+  "dependencies": {
+    "@m3e/web": "^2.10.3"
+  }
+}
