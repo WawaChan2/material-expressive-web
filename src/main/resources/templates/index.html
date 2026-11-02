@@ -5,11 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Material Web Expressive</title>
 
+    <link rel="stylesheet" th:href="@{/css/typeface.css}" />
     <script type="module" th:src="@{/js/bundle.js}"></script>
   </head>
   <body>
-    <m3e-theme color="#FFDE3F" scheme="auto" motion="expressive" strong-focus>
-      
+    <m3e-theme color="#769CDF" scheme="auto" motion="expressive" strong-focus>
+      <m3e-app-bar>
+        <span slot="title">Material Web</span>
+      </m3e-app-bar>
+      <m3e-nav-menu>
+        <m3e-nav-menu-item-group>
+          <m3e-heading slot="label" variant="headline" size="small"
+            >About</m3e-heading
+          >
+          <m3e-nav-menu-item>
+            <span slot="label">Introduction</span>
+          </m3e-nav-menu-item>
+          <m3e-nav-menu-item>
+            <span slot="label">Quick Start</span>
+          </m3e-nav-menu-item>
+        </m3e-nav-menu-item-group>
+        <m3e-divider></m3e-divider>
+        <m3e-nav-menu-item-group>
+          <m3e-heading slot="label" variant="headline" size="small"
+            >Theming</m3e-heading
+          >
+          <m3e-nav-menu-item>
+            <span slot="label">Material Theming</span>
+          </m3e-nav-menu-item>
+          <m3e-nav-menu-item>
+            <span slot="label">Color</span>
+          </m3e-nav-menu-item>
+          <m3e-nav-menu-item>
+            <span slot="label">Typography</span>
+          </m3e-nav-menu-item>
+          <m3e-nav-menu-item>
+            <span slot="label">Shape</span>
+          </m3e-nav-menu-item>
+        </m3e-nav-menu-item-group>
+      </m3e-nav-menu>
     </m3e-theme>
   </body>
 </html>
