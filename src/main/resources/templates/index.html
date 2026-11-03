@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Material Web Expressive</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" th:href="@{/css/elevation.css}" />
     <link rel="stylesheet" th:href="@{/css/typeface.css}" />
     <script type="module" th:src="@{/js/bundle.js}"></script>
   </head>
@@ -19,9 +24,15 @@
             >About</m3e-heading
           >
           <m3e-nav-menu-item>
+            <m3e-icon slot="icon" name="tour" aria-hidden="true"></m3e-icon>
             <span slot="label">Introduction</span>
           </m3e-nav-menu-item>
           <m3e-nav-menu-item>
+            <m3e-icon
+              slot="icon"
+              name="rocket_launch"
+              aria-hidden="true"
+            ></m3e-icon>
             <span slot="label">Quick Start</span>
           </m3e-nav-menu-item>
         </m3e-nav-menu-item-group>
@@ -31,15 +42,23 @@
             >Theming</m3e-heading
           >
           <m3e-nav-menu-item>
+            <m3e-icon slot="icon" name="palette" aria-hidden="true"></m3e-icon>
             <span slot="label">Material Theming</span>
           </m3e-nav-menu-item>
           <m3e-nav-menu-item>
+            <m3e-icon slot="icon" name="colors" aria-hidden="true"></m3e-icon>
             <span slot="label">Color</span>
           </m3e-nav-menu-item>
           <m3e-nav-menu-item>
+            <m3e-icon
+              slot="icon"
+              name="format_size"
+              aria-hidden="true"
+            ></m3e-icon>
             <span slot="label">Typography</span>
           </m3e-nav-menu-item>
           <m3e-nav-menu-item>
+            <m3e-icon slot="icon" name="shapes" aria-hidden="true"></m3e-icon>
             <span slot="label">Shape</span>
           </m3e-nav-menu-item>
         </m3e-nav-menu-item-group>
